@@ -1,0 +1,5 @@
+rootProject.name = "backend"
+
+include("common")
+include("api-gateway")
+include("user-service")
