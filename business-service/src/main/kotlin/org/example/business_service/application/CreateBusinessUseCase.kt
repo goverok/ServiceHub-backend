@@ -6,9 +6,8 @@ import org.example.business_service.domain.model.Business
 import org.example.business_service.domain.model.Owner
 import org.example.business_service.domain.repository.BusinessRepository
 import org.example.business_service.presentation.dto.request.RegisterOwnerRequest
-import org.example.common.domain.model.User
-import org.example.common.domain.repository.UserRepository
-import org.example.common.model.Role
+import org.example.user_service.domain.model.User
+import org.example.user_service.domain.repository.UserRepository
 import org.springframework.security.crypto.password.PasswordEncoder
 import org.springframework.stereotype.Service
 

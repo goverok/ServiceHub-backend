@@ -11,8 +11,8 @@ version = "1.0.0"
 
 dependencies {
     implementation(projects.common)
-    implementation(projects.client)
-    implementation(projects.businessService)
+    implementation(projects.userService)
+//    implementation(projects.businessService)
 
     implementation(libs.spring.boot.web)
     implementation(libs.spring.boot.actuator)

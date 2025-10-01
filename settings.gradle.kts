@@ -16,5 +16,5 @@ dependencyResolutionManagement {
 
 include(":app")
 include(":common")
-include(":client")
-include(":business-service")
+include(":user-service")
+//include(":business-service")
